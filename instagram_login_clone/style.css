@@ -1,0 +1,161 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:40px;
+    padding-top:40px;
+}
+
+.container{
+    margin: 0px 0px 10px;
+    padding: 10px 0px;
+    height: 407px;
+    width: 350px;
+    background-color:#0c1014;
+    border: 1px solid rgb(65, 60, 54);
+
+}
+.logo-text{
+    font-family:'Billabong', 'pacifico', cursive;
+    font-size:48px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    
+}
+.main-content{
+    width: 292.8px;
+    height: 222.19px;
+    margin: 24px 0px 0px;
+    padding: 10px 0px;
+    
+}
+
+.username {
+    width: 258.8px;
+    height: 36px;
+    background-color: #25292E;
+    padding: 9px 0px 7px 8px;
+    border-radius: 5px solid white;
+    margin: 2px 25px 10px 35px;
+    color: white;
+    
+}
+.pass{
+    width: 258.8px;
+    height: 36px;
+    background-color: #25292E;
+    padding: 9px 0px 7px 8px;
+    border-radius: 5px solid white;
+    margin: 2px 25px 10px 35px;
+    color: white;
+}
+.loginbutton{
+    width: 268.4px;
+    height: 32px;
+    margin: 8px 40px;
+    
+}
+
+.logo_text i {
+    width: 28px;
+    height: 20px;
+    margin: 0px 4px 0px 0px;
+    padding: 0px 15px;
+    color: white;
+}
+.logo_text i{
+    cursor: pointer;
+}
+
+.logo_text span{
+    width: 134.86px;
+    height: 18px;
+    color: #0095F6;
+}
+.logo_text{
+    margin: 10px 52px;
+}
+
+.Forgot-password{
+    width: 112.41px;
+    height: 18px;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 30px 80px;
+    padding:80px 10px;
+}
+.Forgot-password:hover{
+    text-decoration: underline;
+    font-weight: 40px;
+}
+
+.signup-bar{
+    width: 350px;
+    height: 62px;
+    background-color: #0c1014;
+    padding: 10px 0px;
+    color: white;
+    border: 2px solid rgb(65, 60, 54);
+}
+.signup-bar p {
+    width: 196.84px;
+    height: 18px;
+    color: #f5f5f5;
+    font-size: 14px;
+    margin: 15px;
+
+}
+.signup-bar p span{
+    width: 48px;
+    height: 18.4px;
+    color: #708DFF;
+    cursor: pointer;
+
+}
+
+
+.or-divider{
+    width: 268.4px;
+    height: 14.99px;
+    color: white;
+    padding: 20px 20px;
+    margin: 8px 40px;
+}
+
+
+
+
+.or-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8e8e8e;
+    font-size: 13px;
+    margin: 16px 30px;
+}
+
+.or-divider::before,
+.or-divider::after {
+    content: "";
+    width: 110px;        /*  half line */
+    height: 1px;
+    background-color: #363636;
+}
+
+.or-divider::before {
+    margin-right: 12px;
+}
+
+.or-divider::after {
+    margin-left: 12px;
+}
+
+
